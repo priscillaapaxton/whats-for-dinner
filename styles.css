@@ -8,3 +8,43 @@ red - #ee5253
 
 */
 
+nav {
+  background-color: mediumseagreen;
+}
+/* /not aligned with top and sides of window */
+h1 {
+  text-align: left;
+}
+
+button {
+
+}
+
+
+
+html {
+  background: url('assets/burger-friends.jpg'); 
+  background-size: cover;
+}
+
+.left-box {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+}
+
+.right-box {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+}
+/* 
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+} */
