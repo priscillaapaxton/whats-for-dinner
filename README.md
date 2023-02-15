@@ -15,14 +15,7 @@ The spec for this project can be found [here](https://frontend.turing.io/project
 - Understand how to listen to and respond to user events
 - Individualize your programming skill set
 
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
+_______________________________________  
 # README Template  
 Before turning this project in, erase this line and everything above it and fill in the info below.  
 ______________________________________________________  
