@@ -50,7 +50,7 @@ h1 {
 
 .get-recipe {
     background-color: teal;
-    border: none;
+    border-width:thin;
     color: black;
     text-align: center;
     font-size: 12px;
