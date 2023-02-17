@@ -5,31 +5,42 @@
   </head>
   <nav>
     <h1>What's for Dinner?</h1>
-    <button>Add A Recipe</button>
+    <button class="add-a-recipe">Add A Recipe</button>
   </nav>
   <body>
-    <div class="left-box"></div>
-    <div class="right-box">POT IMAGE</div>
+    <div class="box">
+      <div class="left-box">
+          <p class="prompt" >What are you looking for?</p>
+          <div class="radio-button">
+            <input type="radio" id="side" name="drone" value="side"
+                  checked>
+            <label for="side">Side</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" id="main-dish" name="drone" value="main-dish"
+                   checked>
+            <label for="main-dish">Main Dish</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" id="Dessert" name="drone" value="Dessert"
+                   checked>
+            <label for="Dessert">Dessert</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" id="entire-meal" name="drone" value="entire-meal"
+                   checked>
+            <label for="entire-meal">Entire Meal</label>
+          </div>
+          <button class="get-recipe">LET'S COOK!</button>
+      </div>
+      <div class="right-box">
+      <img src="assets/cookpot.svg" alt="POT IMAGE" />
+      </div>
+    </div>
   </body>
   <script type="text/javascript" src="main.js"></script>
-</html>
-
-<!-- <nav>
-  <img src="./turing-school-logo" alt="Turing School logo" />
-  <ul>
-    <li>Programs</li>
-    <li>Try Coding</li>
-    <li>Outcomes</li>
-    <li>Team</li>
-    <li>Hire</li>
-    <li>FAQs</li>
-    <li>Perspectives</li>
-    <li>Contact</li>
-  </ul>
-</nav>
-<main>
-  <h1>Hire A Turing Grad</h1>
-  <p>Need to hire...</p>
-  <p>Join 200+ tech industry partners...</p>
-  <button type="button" name="browse-button">BROWSE GRADS FOR HIRE</button>
-</main> -->
+  </html>
+  
+  
+  <!-- <div class="left-box"></div>
+  <div class="right-box">POT IMAGE</div> -->''
