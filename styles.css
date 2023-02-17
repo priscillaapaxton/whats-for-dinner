@@ -5,7 +5,9 @@ teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
 red - #ee5253 */
-
+* {
+  box-sizing: border-box
+}
 body {
   margin: 0px;
   background: url('assets/burger-friends.jpg'); 
@@ -20,8 +22,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 5%;
-  padding-right: 5%
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1 {
@@ -43,7 +45,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-left: 3%;
+  padding-left: 25px
 }
 
 .get-recipe {
@@ -79,4 +81,10 @@ h1 {
 img {
   max-width: 25%;
   height: auto;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  
 }
