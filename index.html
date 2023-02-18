@@ -9,40 +9,33 @@
   </nav>
   <body>
     <div class="box">
-      <div class="left-box">
-          <p class="prompt" >What are you looking for?</p>
+      <div class="left-box" id="promptandoptions">
+          <p class="prompt">What are you looking for?*</p>
           <div class="radio-button">
-            <input type="radio" id="side" name="drone" value="side"
+            <input type="radio" id="foodType1" name="food" value="side"
                   checked>
-            <label for="side">Side</label>
+            <label for="foodType1">Side</label>
           </div>
           <div class="radio-button">
-            <input type="radio" id="main-dish" name="drone" value="main-dish"
-                   checked>
-            <label for="main-dish">Main Dish</label>
+            <input type="radio" id="foodType2" name="food" value="main-dish"
+            <label for="foodType2">Main Dish</label>
           </div>
           <div class="radio-button">
-            <input type="radio" id="Dessert" name="drone" value="Dessert"
-                   checked>
-            <label for="Dessert">Dessert</label>
+            <input type="radio" id="foodType3" name="food" value="Dessert"
+            <label for="foodType3">Dessert</label>
           </div>
           <div class="radio-button">
-            <input type="radio" id="entire-meal" name="drone" value="entire-meal"
-                   checked>
-            <label for="entire-meal">Entire Meal</label>
+            <input type="radio" id="foodType4" name="food" value="entire-meal"
+            <label for="foodType4">Entire Meal</label>
           </div>
-          <button class="get-recipe">LET'S COOK!</button>
+          <button class="get-recipe" onclick="selectDish()">LET'S COOK!</button>
       </div>
       <div class="right-box">
         <img class="pic" src="assets/cookpot.svg" alt="POT IMAGE" />
-        <section class="suggestion">Suggestion</section>
+        <section class="suggestion" id="show"">Suggestion</section>
       </div>
     </div>
   </body>
   <script type="text/javascript" src="main.js"></script>
   </html>
   
-  
-  
-  <!-- <div class="left-box"></div>
-  <div class="right-box">POT IMAGE</div> -->''
