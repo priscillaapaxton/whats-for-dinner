@@ -5,42 +5,41 @@
   </head>
   <nav>
     <h1>What's for Dinner?</h1>
-    <button class="add-a-recipe">Add A Recipe</button>
+    <button class="add-a-recipe">ADD A RECIPE</button>
   </nav>
   <body>
     <div class="box">
-      <div class="left-box">
-          <p class="prompt" >What are you looking for?</p>
+      <div class="left-box" id="promptandoptions">
+          <p class="prompt">What are you looking for?<span style="color: red">*</span></p>
           <div class="radio-button">
-            <input type="radio" id="side" name="drone" value="side"
+            <input type="radio" id="side" name="food" value="side"
                   checked>
             <label for="side">Side</label>
           </div>
           <div class="radio-button">
-            <input type="radio" id="main-dish" name="drone" value="main-dish"
-                   checked>
+            <input type="radio" id="main-dish" name="food" value="main-dish"
             <label for="main-dish">Main Dish</label>
           </div>
           <div class="radio-button">
-            <input type="radio" id="Dessert" name="drone" value="Dessert"
-                   checked>
-            <label for="Dessert">Dessert</label>
+            <input type="radio" id="dessert" name="food" value="dessert"
+            <label for="dessert">Dessert</label>
           </div>
           <div class="radio-button">
-            <input type="radio" id="entire-meal" name="drone" value="entire-meal"
-                   checked>
+            <input type="radio" id="entire-meal" name="food" value="entire-meal"
             <label for="entire-meal">Entire Meal</label>
           </div>
-          <button class="get-recipe">LET'S COOK!</button>
+          <button class="lets-cook" onclick="selectDish()">LET'S COOK!</button>
       </div>
       <div class="right-box">
-      <img src="assets/cookpot.svg" alt="POT IMAGE" />
+        <img class="cookPot" src="assets/cookpot.svg" alt="POT IMAGE" />
+        <section> 
+          <i>You should eat:</i>
+          <br>
+          <p class="suggestion" id="suggestion">Suggestion</p>
+        </section>
       </div>
     </div>
   </body>
   <script type="text/javascript" src="main.js"></script>
   </html>
   
-  
-  <!-- <div class="left-box"></div>
-  <div class="right-box">POT IMAGE</div> -->''
