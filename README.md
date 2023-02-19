@@ -7,7 +7,7 @@ This application is the solution for the individual who is hungry, yet indesisci
 Using the ssh key located on the project page, the user will clone the project to their local machine. This app can be viewed/used on a local machine via the html file.
 
 ### Preview of App:
-[//]: <> 
+![image](https://user-images.githubusercontent.com/110079837/219976117-840c889b-6f7e-4f45-8abc-0741c1f9cd71.png)
 
 ### Context:
 This was my first solo application that I have built. I am in my third week of the Turing Front End program and in total this project took me 15 hours to complete.
