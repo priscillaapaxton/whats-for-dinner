@@ -16,11 +16,6 @@ This was my first solo application that I have built. I am in my third week of t
 Priscilla Paxton: https://github.com/priscillaapaxton
 
 ### Learning Goals:
-Gain experience building an application that utilizes HTML, CSS and JavaScript
-Write HTML and CSS to match a provided comp
-Understand how to listen to and respond to user events
-Individualize your programming skill set
-
 For this project, I met the learning goals of incorporating HTML, CSS, and JavaScript into the functionality of my application. With CSS and HTML, I also was able to stylistically match the given comp for this project. I am curious to see how my application of CSS matures in the future. I also used this project as an opportunity to write more readable code.
 
 ### Wins + Challenges:
